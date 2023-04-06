@@ -1,4 +1,3 @@
-//  import { AppBar, Divider, Drawer, IconButton, List, ListItem, ListItemIcon, makeStyles, Toolbar } from '@material-ui/core'
 import React, { useState } from "react";
 import logo from "../assets/programmer-colorful-logo-design-9ff77b.png";
 import { Link, animateScroll as scroll } from "react-scroll";
