@@ -4,9 +4,9 @@
 import  {makeStyles}  from '@material-ui/core';
 import Navbar from './component/Navbar.jsx';
 import About from "./component/About.jsx"
-import Skills from "./component/Skills"
-import MyWork from "./component/MyWork"
-import Contact from "./component/Contact"
+import Skills from "./component/Skills.jsx"
+import MyWork from "./component/MyWork.jsx"
+import Contact from "./component/Contact.jsx"
 
 
 
