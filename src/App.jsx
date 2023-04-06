@@ -2,11 +2,12 @@
 
 
 import  {makeStyles}  from '@material-ui/core';
-import About from './component/About'
-import Contact from './component/Contact'
-import MyWork from './component/MyWork'
-import Navbar from './component/Navbar'
-import Skills from './component/Skills'
+import Navbar from './component/Navbar.jsx';
+import About from "./component/About.jsx"
+import Skills from "./component/Skills"
+import MyWork from "./component/MyWork"
+import Contact from "./component/Contact"
+
 
 
 function App() {
