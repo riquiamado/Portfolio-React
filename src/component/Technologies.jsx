@@ -1,13 +1,13 @@
 import React from 'react'
-import html from "../assets/iconos de skills/html.jpg"
-import css from "../assets/iconos de skills/css.png"
-import Js from "../assets/iconos de skills/js.png"
-import react from "../assets/iconos de skills/react.png"
-import redux from "../assets/iconos de skills/redux.png"
-import node from "../assets/iconos de skills/node.png"
-import mongodb from "../assets/iconos de skills/mongodb.jpg"
-import postgresql from "../assets/iconos de skills/postgresql.png"
-import materialui from "../assets/iconos de skills/materialui.png"
+import html from "../assets/html.jpg"
+import css from "../assets/css.png"
+import Js from "../assets/js.png"
+import react from "../assets/react.png"
+import redux from "../assets/redux.png"
+import node from "../assets/node.png"
+import mongodb from "../assets/mongodb.jpg"
+import postgresql from "../assets/postgresql.png"
+import materialui from "../assets/materialui.png"
 
 
 
