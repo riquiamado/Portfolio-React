@@ -4,33 +4,30 @@ import { Card, CardContent, CardMedia, Grid, Link,  Typography } from '@mui/mate
 import  {makeStyles}  from '@material-ui/core';
 import MyDataWorks from './DataWorks'
 
-const MyWork = ({ id, title, dark }) => {
-    const classes = useStyles()
-    console.log(MyDataWorks[1].title)
+function MyWork({ id, title, dark }) {
+    const classes = useStyles();
     return (
         <div className={`${classes.section} ${dark && classes.sectionDark}`}>
             <div className={classes.sectionContent} id={id}>
                 <Typography variant='h3'>{title}</Typography>
                 <Grid container className={classes.grid}>
-                    {
-                        MyDataWorks.map(({title,image,linkDeploy},index)=>(
+                    {MyDataWorks.map(({ title, image, linkDeploy }, index) => (
 
-                            <Grid item key={index} xs={12} sm={6} md={4}>
-                                <Card className={classes.card}>
-                                    <CardMedia image={image} titulo="caratula"  className={classes.image}/>
-                                    <CardContent>
-                                        <Link href={linkDeploy} color="primary" target="-blank" rel='noopener noreferrer'>                                          
-                                            {title}    
-                                        </Link>
-                                    </CardContent>
-                                </Card>
-                            </Grid>
-                      ))
-                    }
+                        <Grid item key={index} xs={12} sm={6} md={4}>
+                            <Card className={classes.card}>
+                                <CardMedia image={image} titulo="caratula" className={classes.image} />
+                                <CardContent>
+                                    <Link href={linkDeploy} color="primary" target="-blank" rel='noopener noreferrer'>
+                                        {title}
+                                    </Link>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                    ))}
                 </Grid>
             </div>
         </div>
-    )
+    );
 }
 
 const useStyles = makeStyles((theme) => ({
