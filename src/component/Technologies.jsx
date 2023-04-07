@@ -1,13 +1,3 @@
-import React from 'react'
-import html from "../assets/html.jpg"
-import css from "../assets/images.png"
-import Js from "../assets/js.png"
-import react from "../assets/react.png"
-import redux from "../assets/descarga.png"
-import node from "../assets/node.png"
-import mongodb from "../assets/mongodb.jpg"
-import postgresql from "../assets/postgresql.png"
-import materialui from "../assets/materialui.png"
 
 
 
@@ -27,56 +17,56 @@ import  {makeStyles}  from '@material-ui/core';
 const skills = [
     {
         year: "2022",
-        src: html,
-        title: "html 5",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856788/portfolio/html_kbjcnf.png",
+        title: "html",
         stars: 4
     },
     {
         year: "2022",
-        src: css,
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856497/portfolio/images_rb6l1f.png",
         title: "css",
         stars: 4
     },
     {
         year: "2022",
-        src: Js,
-        title: "JavasCript",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856345/portfolio/js_lb6mlh.png",
+        title: "js",
         stars: 4
     },
     {
         year: "2022",
-        src: react,
-        title: "React",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856346/portfolio/react_uub1ew.png",
+        title: "react",
         stars: 4
     },
     {
         year: "2022",
-        src: redux,
-        title: "Redux",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856502/portfolio/descarga_bef32y.png",
+        title: "redux",
         stars: 4
     },
     {
         year: "2022",
-        src: node,
-        title: "Node JS",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856345/portfolio/node_vvfhqx.png",
+        title: "node",
         stars: 4
     },
     {
         year: "2022",
-        src: mongodb,
-        title: "Mongo DB",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856345/portfolio/mongodb_pvgfne.jpg",
+        title: "mongodb",
         stars: 4
     },
     {
         year: "2022",
-        src: postgresql,
-        title: "PostgreSQL",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856345/portfolio/postgresql_xykypt.png",
+        title: "postgresql",
         stars: 4
     },
     {
         year: "2022",
-        src: materialui,
-        title: "Material UI",
+        src: "https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856345/portfolio/materialui_xl78nk.png",
+        title: "materialui",
         stars: 4
     },
 ]

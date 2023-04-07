@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/programmer-colorful-logo-design-9ff77b.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import InfoIcon from "@mui/icons-material/Info";
 import TungstenIcon from "@mui/icons-material/Tungsten";
@@ -54,7 +53,7 @@ const Navbar = () => {
       <AppBar position="sticky" className={classes.root}>
         <Toolbar className={classes.toolbar}>
           <img
-            src={logo}
+            src={"https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856422/portfolio/programmer-colorful-logo-design-9ff77b_ke4x3d.jpg"}
             className={classes.logo}
             alt="logo"
             onClick={scrollToTop}

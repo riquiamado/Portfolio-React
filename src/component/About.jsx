@@ -1,6 +1,5 @@
 import {  Card, CardActions, CardContent, CardMedia,  Typography } from '@mui/material';
 import React from 'react'
-import mifoto from "../assets/mifoto.png"
 import TypeWriterEffect from 'react-typewriter-effect';
 import pdf from "../assets/Carlos Enrique Amado.pdf"
 import  {Button, makeStyles}  from '@material-ui/core';
@@ -15,7 +14,7 @@ const About = ({ title, dark, id }) => {
             <div className={classes.sectionContent} id={id} >
                 <Typography variant='h3'>{title} </Typography>
                 <Card className={classes.card}>
-                    <CardMedia image={mifoto} className={classes.media} title="picture" />
+                    <CardMedia image={"https://res.cloudinary.com/dwyfwbq1s/image/upload/v1680856457/portfolio/mifoto_ilxbph.png"} className={classes.media} title="picture" />
                         <CardContent className={classes.cardContent}>
                             <TypeWriterEffect
                             text="Hola, me llamo Carlos Amado "
